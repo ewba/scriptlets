@@ -6,10 +6,12 @@ width=${2:-1024}
 height=${3:-786}
 fsize=${4:-300k}
 if [[ -z $dir || ! -d $dir ]]; then
-  echo Usage: $0 dir-to-search [width=1024] [height=768] [minimum filesize=300k]
-  echo Will resize any jpeg with bigger dimensions and filesize than specified
-  echo IN PLACE! NO BACKUPS!
-  echo (if jpegtran is available, the images will also be optimised)
+  cat<<JEJE
+  Usage: $0 dir-to-search [width=1024] [height=768] [minimum filesize=300k]
+  Will resize any jpeg with bigger dimensions and filesize than specified
+  IN PLACE! NO BACKUPS!
+  (if jpegtran is available, the images will also be optimised)
+JEJE
   exit 1
 fi
 if ! which mogrify &> /dev/null; then
