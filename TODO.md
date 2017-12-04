@@ -2,11 +2,6 @@ Here are some webdev tasks where we could use help with, roughly in difficulty o
 
 Tasks
 -----
-- our custom 404 page needs improving, eg. http://ebm.si/asdas (view source)
-  - you can see that the long script loading causes the gradient to not be expanded immediately
-  - it could be much prettier or creative
-    - you can try whatever you want (our topic is waste and we indeed hate incineration)
-  - the iats donation div is loaded via a <script> tag and can't be styled directly; an override is possible through an upstream interface
 - checking and making sure our archived pages are HTTPS ready
   - I've set up Let's Encrypt recently, but only deployed it partially, since there are hardcoded http paths in various files and I didn't have time to check everything yet
   - since most of them are static html archives, likely a few regex replaces could do the brunt of the work
@@ -28,3 +23,8 @@ Done
   - it's a simple bootstrap page, with the core lookup logic in php (=serverside) and some js glue to make it work better; that's fine
   - it has a generic look that can be vastly improved
   - usability or at least the way info is presented could surely be done better
+- our custom 404 page needs improving, eg. http://ebm.si/asdas (view source)
+  - you can see that the long script loading causes the gradient to not be expanded immediately
+  - it could be much prettier or creative
+    - you can try whatever you want (our topic is waste and we indeed hate incineration)
+  - the iats donation div is loaded via a <script> tag and can't be styled directly; an override is possible through an upstream interface
