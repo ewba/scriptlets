@@ -8,6 +8,9 @@ Tasks
   - some may work out of the box
   - browser developer tools notify you if there are problems (usually in the network tab)
 - check https://khan.github.io/tota11y/ compliance of https://github.com/ewba/english-intro (https://ebm.si/en) 
+- converting the three unstructured CSV files into JSON for our help-me-separate-waste mini app
+  - the javascript and php code reading it will need slight adjustment
+  - https://ebm.si/p/locevanje/
 - a Zero Waste municipality data visualisation solution
   - this one is a bit more involved and requires more javascript and data visualisation knowledge OR wordpress
   - basically a bit of data recalculation and graphing, ideally lightweight enough to be integrated into the existing site (http://ebm.si/zw)
