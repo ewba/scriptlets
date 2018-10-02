@@ -12,8 +12,12 @@ Tasks
   - the javascript and php code reading it will need slight adjustment
   - https://ebm.si/p/locevanje/
 - a Zero Waste municipality data visualisation solution
-  - this one is a bit more involved and requires more javascript and data visualisation knowledge OR wordpress
-  - basically a bit of data recalculation and graphing, ideally lightweight enough to be integrated into the existing site (http://ebm.si/zw)
+  - this one is a bit more involved, but mostly done, only the overview remains to be solved (on the harmonica opened by default on http://ebm.si/zw/obcine)
+  - basically a data presentation/graphing problem:
+    - the data is already stored in google sheets and could be manipulated there
+    - the challenge is to display statistic per municipality per year per goals (3), so it can't easily fit into a table
+      - easiest to do via a pretty table that has a radio control to determine which goal is to be shown and then shows just a municipal timeline of that
+      - manually designed it looked like this: http://ebm.si/zw/wp-content/uploads/2018/05/poro%C4%8Dilo-zw-ob%C4%8Din-2018-768x939.jpg
 - help with data migration from joomla2 to drupal8
   - either the Migrate plugin needs an extra script or some other solution found to make it work good
   - maybe upgrading to joomla3 first would help
