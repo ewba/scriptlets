@@ -23,6 +23,9 @@ Tasks
   - maybe upgrading to joomla3 first would help
   - the core issue is that joomla2 doesn't have a separate field for article thumbnails, but just uses the first image referenced in the article
     - while everyone else wants a separate field
+ - create a "year in review" web report template
+   - example: http://report.zerowasteeurope.eu/
+   - perfect indicators are not ready yet, but the overall design can already be made
 
 Done
 ----
