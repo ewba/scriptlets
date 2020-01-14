@@ -10,7 +10,8 @@ Tasks
 - check https://khan.github.io/tota11y/ compliance of https://github.com/ewba/english-intro (https://ebm.si/en) 
 - converting the three unstructured CSV files into JSON for our help-me-separate-waste mini app
   - the javascript and php code reading it will need slight adjustment
-  - https://ebm.si/p/locevanje/
+  - https://ebm.si/p/locevanje
+  - see repo at https://github.com/ewba/locevalnik
 - a Zero Waste municipality data visualisation solution
   - this one is a bit more involved, but mostly done, only the overview remains to be solved (on the harmonica opened by default on https://ebm.si/zw/obcine)
   - basically a data presentation/graphing problem:
@@ -18,11 +19,6 @@ Tasks
     - the challenge is to display statistic per municipality per year per goals (3), so it can't easily fit into a table
       - easiest to do via a pretty table that has a radio control to determine which goal is to be shown and then shows just a municipal timeline of that
       - manually designed it looked like this: https://ebm.si/zw/wp-content/uploads/2018/05/poro%C4%8Dilo-zw-ob%C4%8Din-2018-768x939.jpg (but that's for just one year)
-- help with data migration from joomla2 to drupal8
-  - either the Migrate plugin needs an extra script or some other solution found to make it work good
-  - maybe upgrading to joomla3 first would help
-  - the core issue is that joomla2 doesn't have a separate field for article thumbnails, but just uses the first image referenced in the article
-    - while everyone else wants a separate field
  - create a "year in review" web report template
    - example: http://report.zerowasteeurope.eu/
    - very nice interactive financials graph: https://www.tearfund.org/en/about_us/where_your_money_goes/
@@ -39,3 +35,8 @@ Done
   - it could be much prettier or creative
     - you can try whatever you want (our topic is waste and we indeed hate incineration)
   - the iats donation div is loaded via a <script> tag and can't be styled directly; an override is possible through an upstream interface
+- help with data migration from joomla2 to drupal8
+  - either the Migrate plugin needs an extra script or some other solution found to make it work good
+  - maybe upgrading to joomla3 first would help
+  - the core issue is that joomla2 doesn't have a separate field for article thumbnails, but just uses the first image referenced in the article
+    - while everyone else wants a separate field
