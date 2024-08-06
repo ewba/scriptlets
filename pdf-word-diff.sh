@@ -16,6 +16,8 @@ cat <<HTMLHEAD
   <title>Spremembe med $pdf1n in $pdf2n</title>
 </head>
 <style>
+  body { max-width: 1000px; background: burlywood; }
+  pre { white-space: pre-wrap; }
   .added  { color: green; background: #e3f3c5; }
   .removed { color: red; background: #fedfdf; text-decoration: line-through; }
 </style>
