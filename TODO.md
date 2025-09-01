@@ -12,17 +12,6 @@ Tasks
   - the javascript and php code reading it will need slight adjustment
   - https://ebm.si/p/locevanje
   - see repo at https://github.com/ewba/locevalnik
-- a Zero Waste municipality data visualisation solution
-  - this one is a bit more involved, but mostly done, only the overview remains to be solved (on the harmonica opened by default on https://ebm.si/zw/obcine)
-  - basically a data presentation/graphing problem:
-    - the data is already stored in google sheets and could be manipulated there
-    - the challenge is to display statistic per municipality per year per goals (3), so it can't easily fit into a table
-      - easiest to do via a pretty table that has a radio control to determine which goal is to be shown and then shows just a municipal timeline of that
-      - manually designed it looked like this: https://ebm.si/zw/wp-content/uploads/2018/05/poro%C4%8Dilo-zw-ob%C4%8Din-2018-768x939.jpg (but that's for just one year)
- - create a "year in review" web report template
-   - example: http://report.zerowasteeurope.eu/
-   - very nice interactive financials graph: https://www.tearfund.org/en/about_us/where_your_money_goes/
-   - perfect indicators are not ready yet, but the overall design can already be made
 
 Done
 ----
@@ -40,3 +29,10 @@ Done
   - maybe upgrading to joomla3 first would help
   - the core issue is that joomla2 doesn't have a separate field for article thumbnails, but just uses the first image referenced in the article
     - while everyone else wants a separate field
+- a Zero Waste municipality data visualisation solution
+  - this one is a bit more involved, but mostly done, only the overview remains to be solved (on the harmonica opened by default on https://ebm.si/zw/obcine)
+  - basically a data presentation/graphing problem:
+    - the data is already stored in google sheets and could be manipulated there
+    - the challenge is to display statistic per municipality per year per goals (3), so it can't easily fit into a table
+      - easiest to do via a pretty table that has a radio control to determine which goal is to be shown and then shows just a municipal timeline of that
+      - manually designed it looked like this: https://ebm.si/zw/wp-content/uploads/2018/05/poro%C4%8Dilo-zw-ob%C4%8Din-2018-768x939.jpg (but that's for just one year)
